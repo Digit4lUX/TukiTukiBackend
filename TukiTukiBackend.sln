@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TukiTukiBackend", "TukiTukiBackend\TukiTukiBackend.csproj", "{22ED2634-4C67-423C-9E35-DDAEC58DF336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TukiTukiBackendTesting", "TukiTukiBackendTesting\TukiTukiBackendTesting.csproj", "{856F0F9F-6F6E-4DC0-AB6F-844008D32BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22ED2634-4C67-423C-9E35-DDAEC58DF336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ED2634-4C67-423C-9E35-DDAEC58DF336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ED2634-4C67-423C-9E35-DDAEC58DF336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ED2634-4C67-423C-9E35-DDAEC58DF336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856F0F9F-6F6E-4DC0-AB6F-844008D32BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856F0F9F-6F6E-4DC0-AB6F-844008D32BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856F0F9F-6F6E-4DC0-AB6F-844008D32BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856F0F9F-6F6E-4DC0-AB6F-844008D32BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
