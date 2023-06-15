@@ -19,10 +19,14 @@ public class UserTest
     [Fact]
     public void RegisterUserTest()
     {
+        /*Successful database insertion*/
         User user = new User("Javier", "Gonzales", "javiergonzales123@gmail.com", "javier123", "963571985");
-        
         var result = _userController.create(user);
-        Assert.NotNull(result);
         Assert.IsType<ActionResult<User>>(result);
+        
+        /*Conflict during database insertion*/
+        User newUser = new User("Roberto", "Hernandez", "pepe43@gmail.com", "robert123", "963575685");
+        var result2 = _userController.create(newUser);
+        Assert.IsType<ConflictObjectResult>(result2.Result);
     }
 }
