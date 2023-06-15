@@ -7,10 +7,5 @@ public class Product
     public string price { get; set; }
     public string details { get; set; }
 
-    public Product(string title, string price, string details)
-    {
-        this.title = title;
-        this.price = price;
-        this.details = details;
-    }
+   
 }

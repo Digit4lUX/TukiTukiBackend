@@ -12,17 +12,20 @@ public class ProductTest
     
     public ProductTest()
     {
-        _productController = new ProductController(_productService);
+        
         _productService = new ProductService();
+        _productController = new ProductController(_productService);
     }
     
     [Fact]
     public void RegisterProductTest()
     {
-        Product product = new Product("prueba", "70", "prueba");
-        
+        Product product = new Product();
+        product.id = 1;
+        product.title = "prueba";
+        product.price = "50";
+        product.details = "prueba";
         var result = _productController.create(product);
-        Assert.NotNull(result);
-        Assert.IsType<ActionResult<User>>(result);
+        Assert.IsType<CreatedResult>(result.Result);
     }
 }

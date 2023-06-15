@@ -7,12 +7,12 @@ public class ProductService : ICRUDService<Product>
 {
     private List<Product> _products = new List<Product>()
     {
-        new Product("prueba", "70", "prueba")
+        new Product(){id=1, title = "prueba", price = "70", details = "prueba1"}
     };
 
     public IEnumerable<Product> getAll()
     {
-        return _products.ToList();
+        return _products;
     }
 
     public Product? getById(int id)
@@ -22,7 +22,6 @@ public class ProductService : ICRUDService<Product>
 
     public Product create(Product product)
     {
-        product.id = _products.Count + 1;
         _products.Add(product);
         return product;
 
@@ -31,5 +30,9 @@ public class ProductService : ICRUDService<Product>
     public void delete(int id)
     {
         throw new NotImplementedException();
+    }
+    public Product? findById(int id)
+    {
+        return _products.Find(item => item.id == id);
     }
 }

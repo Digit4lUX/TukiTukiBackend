@@ -19,14 +19,15 @@ public class ProductController : ControllerBase
     [HttpGet]
     public ActionResult<Product> getAll()
     {
-        return getAll();
+        var result = _productService.getAll();
+        return Ok(result);
     }
     
     [HttpPost]
     public ActionResult<Product> create(Product product)
     {
         var result = _productService.create(product);
-        return Created("api/product", result);
+        return Created("api/products", result);
     }
     
 }
