@@ -17,6 +17,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=909c4317_002D4db5_002D43d0_002D93d9_002D3dbac991caed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserTest #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::856F0F9F-6F6E-4DC0-AB6F-844008D32BE0::net7.0::TukiTukiBackendTesting.UserTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::856F0F9F-6F6E-4DC0-AB6F-844008D32BE0::net7.0::TukiTukiBackendTesting.CardTest.GetCardsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::856F0F9F-6F6E-4DC0-AB6F-844008D32BE0::net7.0::TukiTukiBackendTesting.CardTest.RegisterCardTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=afec3111_002D044d_002D4223_002D869e_002Dc1c11d44cb9e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

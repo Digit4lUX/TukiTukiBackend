@@ -22,7 +22,7 @@ public class UserTest
         /*Successful database insertion*/
         User user = new User("Javier", "Gonzales", "javiergonzales123@gmail.com", "javier123", "963571985");
         var result = _userController.create(user);
-        Assert.IsType<ActionResult<User>>(result);
+        Assert.IsType<CreatedResult>(result.Result);
         
         /*Conflict during database insertion*/
         User newUser = new User("Roberto", "Hernandez", "pepe43@gmail.com", "robert123", "963575685");
