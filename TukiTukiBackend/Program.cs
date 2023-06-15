@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICRUDService<User>, UserService>();
+builder.Services.AddScoped<ICRUDService<Card>, CardService>();
 
 var app = builder.Build();
 
