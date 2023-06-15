@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj": {}
+    "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj": {
+    "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj",
+        "projectUniqueName": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj",
         "projectName": "TukiTukiBackendTesting",
-        "projectPath": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj",
-        "packagesPath": "C:\\Users\\Lennin\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackendTesting\\obj\\",
+        "projectPath": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackendTesting\\TukiTukiBackendTesting.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackendTesting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lennin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj": {
-                "projectPath": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj"
+              "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj": {
+                "projectPath": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj"
               }
             }
           }
@@ -79,27 +86,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj": {
+    "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj",
+        "projectUniqueName": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj",
         "projectName": "TukiTukiBackend",
-        "projectPath": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj",
-        "packagesPath": "C:\\Users\\Lennin\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Uni\\Patrones\\TukiTukiBackend\\TukiTukiBackend\\obj\\",
+        "projectPath": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\TukiTukiBackend.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Jetbrains-p\\Rider\\TukiTukiBackend\\TukiTukiBackend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lennin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -146,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
